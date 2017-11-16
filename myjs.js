@@ -16,7 +16,7 @@ window.onload = function() {
 
 $(document).ready(function() {
 	
-   $('.effect').textillate();
+   //$('.effect').textillate();
 
 
 	$("#left").on("click",function(){
