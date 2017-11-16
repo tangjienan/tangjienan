@@ -1,0 +1,73 @@
+html, 
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#cover{
+	 background-image: url("background3.jpg");
+	 background-size:100% 100%;
+	 
+}
+.navbar{
+	margin-bottom: 0%;
+    background-color: white;
+}
+.nav.navbar-nav.navbar-right li a ,
+.navbar-brand{
+    color: black;
+}
+
+.block1{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#menu{
+	margin-top: 1%;
+}
+
+#intro{
+	text-align: center;
+	font-size : medium;
+	
+}
+
+#project h2{
+	 text-align: center;
+}
+
+.container-fluid{
+	padding-left :  0px;
+	padding-right: 0px;
+}
+
+
+#cover{
+	background-color: #00FFFF;
+	height: 60%;
+}
+
+#content{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#about{
+	margin-top: 3%;
+	height: 20%;
+	background-color: grey;
+	margin-bottom: 5%;
+}
+
+#left, #mid, #right{
+	margin-bottom: 1%;
+}
+
+#top1img, #top2img, #top3img,
+#top11img, #top22img, #top33img{
+	height: 100%;
+    width: 100%;
+}
+
+#project img { cursor: pointer; }
