@@ -56,7 +56,6 @@ body {
 #about{
 	margin-top: 3%;
 	height: 20%;
-	background-color: grey;
 	margin-bottom: 5%;
 }
 
@@ -71,3 +70,11 @@ body {
 }
 
 #project img { cursor: pointer; }
+
+#notempty{
+	text-align:center
+}
+
+.contact{
+	margin-bottom: 10%;
+}
