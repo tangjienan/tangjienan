@@ -22,7 +22,7 @@
 	
 </head>
 <body>
-	<div id = "menu" class = "block1">
+	<div id = "menu" class = "block1 container-fluid">
 		<nav class="block1 navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -36,22 +36,31 @@
 			</div>
 		</nav>
 	</div>
-	<div id = "cover" class = "block1 container-fluid">
-		<p> a nice background image goes here </p>
+	
+	<div  class = "block1 container-fluid">
+		<img id = "cover">
 	</div>
+
 	<div id = "content" class = "block1 container-fluid">
-		<p id = "intro" class = "effect" > 
+		<div id = "myPic" class="col-lg-2">
+			<img src="me.jpg" id = "picMe" class="hidden-xl hidden-lg hidden-md img-responsive center-block">
+			<img src="me.jpg" id = "picMe" class="hidden-sm hidden-xs img-responsive">
+		</div>
+		<div class="col-lg-10 ">
+			<p id = "intro" class = "effect " > 
 			My name is Jienan Tang and I am now a master student of Computer Science in University of Southern California. I got my Bachelor's degree in University of Illinois at Urbana-Champaign major in Electrical Engineering in 2016. <br/>
 			I am familiar with Java, python, C++, JavaScript and swift and looking for internship starting in summer 2018. <br/>
-			And here are my projects ...
-		</p>
+			</p>
+		</div>
 	</div>
 	<div id = "project" class = "container-fluid block1">
 		<h2>Projects</h2>
 		<div class = "row ">
-			<a href = "test.gif" data-lightbox="image-1"   data-title="My caption"  id = "left"   class="col-lg-4"  >
+			<div id = "left"   class="col-lg-4">
+			<a href = "test.gif" data-lightbox="image-1"   data-title="My caption" >
 				<img  id = "top1img" src ="place_holder.jpg"  data-title="My caption" >
 			</a>
+			</div>
 			<div  id = "mid" class="col-lg-4" >
 				<img id = "top2img" src="place_holder.jpg">
 			</div>
@@ -73,28 +82,27 @@
 	</div>
 	<div id = "about" class = "block1 container-fluid">
 		<div class = "row">
-			here goes some words
-		</div>
-
-		<div class = "row">
-			<div  id = "empty1" class="col-lg-4 ">
-			</div>
-			<div  id = "notempty" class="col-lg-4 text-center">
-				
-			</div>
-			<div  id = "empty2" class="col-lg-4  text-center">
+			<div  id = "empty1" class="col-lg-4  text-center">
 				<div class = "row contact">
 				<a href = "https://github.com/tangjienan"><img src = "github.png"></a>
 				</div>
-				<div class = "row contact" >
-				<a href = "https://500px.com/donezio"><img src = "500px.png"></a>
-				</div>
+			</div>
+			<div  id = "notempty" class="col-lg-4 text-center">
 				<div class = "row contact">
 				<a href = "https://www.linkedin.com/in/jienan-tang-8814b2125"><img src = "linkedin.png"></a>
 				</div>
-				<div class = "row contact">
-				<a href = "mailto:jienanta@usc.edu"><img src = "email.png"></a>
+			</div>
+			<div  id = "empty2" class="col-lg-4  text-center">
+				<div class = "row contact" >
+				<a href = "https://500px.com/donezio"><img src = "500px.png"></a>
 				</div>
+			</div>
+		</div>
+		<div id = "more" class = "row text-center">
+			<div style="display: inline-block; text-align: left;">
+					<p> email : jienanta@usc.edu <br/>
+						phone : 217-220-0459 <br/>
+						<a href = "dsadad"> resume </a>
 			</div>
 		</div>
 	</div>
